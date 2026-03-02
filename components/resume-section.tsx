@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { FiDownload, FiExternalLink, FiFileText } from "react-icons/fi";
 
-const RESUME_PATH = "/resume/PVedanand_MERN.pdf";
+const RESUME_PATH = "/resume/Peddaboina_Vedanand_Backend_Resume_2026.pdf.pdf";
 
 export function ResumeSection() {
   return (
