@@ -37,7 +37,7 @@ export const navLinks = [
 
 export const projects: Project[] = [
   {
-slug: "Microservice based online job portal",
+slug: "microservice-based-online-job-portal",
 title: "Online Job Portal",
 cardTitle: "Job Portal",
 stackDescription:
@@ -66,7 +66,7 @@ keyFeatures: [
   "Distributed microservices architecture enabling independent deployment and scaling"
 ],
     launchedYear: "2026",
-traction: "Enterprise-grade hiring and recruitment management system",
+traction: "Enterprise grade hiring and recruitment management system",
 websiteUrl: "#",
 githubUrl: "https://github.com/Vedanand-ux/Microservices---Based-Online-Job-Portal",
 liveUrl: "#",
@@ -121,7 +121,7 @@ quickStart: [
   },
   {
   slug: "staynest-booking-backend",
-  title: "StayNest – Airbnb-Style Booking Backend",
+  title: "StayNest – property rental Booking Backend",
   cardTitle: "StayNest",
   stackDescription: "Scalable Node.js backend for property listing, booking, authentication, and admin management.",
   tech: ["Node.js", "Express.js", "MongoDB", "EJS", "MVC Architecture"],
@@ -284,7 +284,7 @@ export const skillGroups = [
 ];
 
 export const achievements = [
-  "Solved 400+ LeetCode problems",
+  "Solved 300+ LeetCode problems",
   "93th percentile in JEE Mains among 1M+ candidates",
 ];
 
