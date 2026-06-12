@@ -112,8 +112,8 @@ caseStudySections: [
 ],
 
 quickStart: [
-  "git clone https://github.com/Vedanand-ux/Smart-Cloud-Storage-System.git",
-  "cd Smart-Cloud-Storage-System",
+  "git clone https://github.com/Vedanand-ux/Microservices---Based-Online-Job-Portal",
+  "cd Microservices---Based-Online-Job-Portal",
   "npm install",
   "Create a .env file with DATABASE_URL, JWT_SECRET, REDIS_URL, and AI_API_KEY",
   "npm run dev",
