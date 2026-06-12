@@ -37,11 +37,11 @@ export const navLinks = [
 
 export const projects: Project[] = [
   {
-slug: "smart-cloud-storage-system",
-title: "Smart Cloud Storage System",
-cardTitle: "Smart Cloud Storage",
+slug: "Microservice based online job portal",
+title: "Online Job Portal",
+cardTitle: "Job Portal",
 stackDescription:
-  "AI-powered personal cloud storage platform with secure file management, background processing, and scalable architecture.",
+  "Microservice-based online job portal with user management, job listing, and application tracking.",
 tech: [
   "Next.js",
   "TypeScript",
@@ -52,20 +52,21 @@ tech: [
   "OpenAI API"
 ],
 description:
-  "Production-ready personal cloud storage platform enabling secure file uploads, intelligent AI-based tagging and summarization, background job processing with Redis queues, and scalable metadata-driven architecture.",
+  "Production-ready job portal platform enabling seamless candidate applications, recruiter hiring workflows, AI-powered resume analysis, event-driven microservices communication, and scalable distributed architecture.",
 about:
-  "Smart Cloud Storage System is an AI-integrated file management platform designed to demonstrate deep backend engineering principles. It combines direct file system handling, secure role-based authentication, asynchronous job processing, and AI-powered file organization. The system stores files on the server while maintaining structured metadata in a relational database, enabling intelligent search, tagging, and secure sharing capabilities.",
+  "Microservices-Based Job Portal is a distributed recruitment platform designed to demonstrate advanced backend engineering concepts. Built using Node.js microservices and Apache Kafka, it enables scalable communication between recruiters and candidates through event-driven architecture. The system incorporates secure JWT authentication, role-based access control, AI-powered resume analysis, and optimized PostgreSQL data management to deliver a robust and extensible hiring ecosystem.",
 keyFeatures: [
-  "Secure file upload, download, rename, delete, and folder management",
-  "AI-powered image tagging and document summarization",
-  "Asynchronous job queue processing using Redis and BullMQ",
-  "Metadata-driven storage architecture with PostgreSQL",
-  "Role-based authentication with JWT and secure access control",
-  "Temporary secure file-sharing links with expiration",
-  "Multipart upload support for handling large files efficiently"
+ "Candidate and recruiter role-based authentication with JWT and RBAC",
+  "Job posting, application tracking, and recruiter dashboard management",
+  "Event-driven microservices communication using Apache Kafka",
+  "AI-powered resume analysis and career guidance modules",
+  "Forgot password, reset password, and refresh token workflows",
+  "PostgreSQL-backed scalable data architecture for jobs and applications",
+  "API versioning and service contract management for backward compatibility",
+  "Distributed microservices architecture enabling independent deployment and scaling"
 ],
     launchedYear: "2026",
-traction: "AI-powered scalable personal cloud storage platform",
+traction: "Enterprise-grade hiring and recruitment management system",
 websiteUrl: "#",
 githubUrl: "https://github.com/Vedanand-ux/Smart-Cloud-Storage-System",
 liveUrl: "#",
