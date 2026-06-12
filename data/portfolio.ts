@@ -43,13 +43,11 @@ cardTitle: "Job Portal",
 stackDescription:
   "Microservice-based online job portal with user management, job listing, and application tracking.",
 tech: [
-  "Next.js",
   "TypeScript",
+  "Next.js",
   "Node.js",
-  "PostgreSQL",
-  "Redis",
-  "BullMQ",
-  "OpenAI API"
+  "PostgreSQL",        //Node.js · TypeScript · Apache Kafka · PostgreSQL · Next.js
+  "Apache Kafka"
 ],
 description:
   "Production-ready job portal platform enabling seamless candidate applications, recruiter hiring workflows, AI-powered resume analysis, event-driven microservices communication, and scalable distributed architecture.",
@@ -71,7 +69,7 @@ websiteUrl: "#",
 githubUrl: "https://github.com/Vedanand-ux/Microservices---Based-Online-Job-Portal",
 liveUrl: "#",
 videoPath: "/videos/smart-cloud-storage.mp4",
-logoPath: "/projects/image.png",
+logoPath: "/projects/job portal.png",
 
 caseStudySections: [
   {
