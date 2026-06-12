@@ -68,7 +68,7 @@ keyFeatures: [
     launchedYear: "2026",
 traction: "Enterprise-grade hiring and recruitment management system",
 websiteUrl: "#",
-githubUrl: "https://github.com/Vedanand-ux/Smart-Cloud-Storage-System",
+githubUrl: "https://github.com/Vedanand-ux/Microservices---Based-Online-Job-Portal",
 liveUrl: "#",
 videoPath: "/videos/smart-cloud-storage.mp4",
 logoPath: "/projects/image.png",
@@ -77,36 +77,36 @@ caseStudySections: [
   {
     heading: "Problem Statement",
     points: [
-      "Most personal storage tools lack intelligent organization and rely on manual file sorting.",
-      "AI processing for files is often synchronous, causing slow response times and poor scalability.",
-      "Secure file handling with access control and temporary sharing links is rarely implemented properly in student projects."
+      "Traditional job portals often struggle with scalability as user traffic and application volume increase.",
+      "Tightly coupled systems make it difficult to introduce new features without impacting existing services.",
+      "Recruiters face challenges in efficiently evaluating large numbers of resumes and managing hiring workflows."
     ],
   },
   {
     heading: "Solution Overview",
     points: [
-      "Built a scalable personal cloud storage platform with structured metadata architecture.",
-      "Integrated AI services to automatically tag images and summarize documents.",
-      "Implemented asynchronous job processing using Redis and BullMQ to offload AI workloads."
+      "Built a distributed job portal using a microservices architecture to enable independent service scaling and deployment.",
+      "Implemented event-driven communication with Apache Kafka for reliable asynchronous interactions between services.",
+      "Integrated AI-powered resume analysis and career guidance modules to enhance candidate evaluation."
     ],
   },
   {
     heading: "Architecture & Platform Highlights",
     points: [
-      "Server-side file system storage with strict access control and ownership validation.",
-      "PostgreSQL stores structured metadata including fileName, path, size, MIME type, ownerId, AI tags, and timestamps.",
-      "Redis-backed job queue enables non-blocking background AI processing.",
-      "JWT-based authentication ensures secure file operations and user isolation.",
-      "Multipart upload support allows reliable handling of large files."
+      "Microservices-based architecture with separate Candidate, Recruiter, Authentication, and Job Management services.",
+      "Apache Kafka handles event-driven workflows such as job applications, notifications, and profile updates.",
+      "PostgreSQL stores structured data for users, jobs, applications, and recruiter analytics.",
+      "JWT-based authentication with role-based access control (RBAC) ensures secure multi-role access.",
+      "API versioning and service contracts maintain backward compatibility across independently deployable services."
     ],
   },
   {
     heading: "Impact",
     points: [
-      "Reduced perceived response time by 70% by moving AI processing to background workers.",
-      "Enabled intelligent search using AI-generated tags, reducing file retrieval effort by 60%.",
-      "Designed architecture capable of scaling to thousands of files per user.",
-      "Demonstrated production-level backend engineering patterns beyond simple CRUD applications."
+      "Enabled independent scaling of services, improving system flexibility and maintainability.",
+      "Reduced service coupling through event-driven communication, allowing faster feature development.",
+      "Streamlined recruiter workflows with centralized job and application management.",
+      "Demonstrated enterprise-level backend engineering concepts including microservices, distributed systems, and asynchronous messaging."
     ],
   },
 ],
