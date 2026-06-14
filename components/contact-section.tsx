@@ -93,7 +93,7 @@ export function ContactSection() {
         >
           Email:{" "}
           <a
-            href="mailto:ayushraj4820@gmail.com"
+            href="mailto:pvedanand2003@gmail.com"
             className="text-[var(--foreground)] underline decoration-[var(--accent)]"
           >
             pvedanand2003@gmail.com
