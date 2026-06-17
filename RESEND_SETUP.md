@@ -6,7 +6,7 @@ To get the contact form working in production and locally, please follow these s
 - Go to [Resend.com](https://resend.com/) and sign up.
 - Navigate to the **API Keys** section in your dashboard.
 - Create a new API key.
-- *Note: For testing, Resend only allows sending to the email address you signed up with (`ayushraj4820@gmail.com`), unless you verify your own custom domain.*
+- *Note: For testing, Resend only allows sending to the email address you signed up with (`pvedanand2003@gmail.com`), unless you verify your own custom domain.*
 
 ### 2. Add Environment Variables
 Create a file named `.env.local` in the root of your project directory (`d:\MY_protofolio\git-portfolio\my-portfolio\.env.local`). Add the API key you generated:

@@ -4,7 +4,7 @@
     <strong>Full-Stack Software Engineer • Systems Thinking • AI-Driven Architectures</strong>
   </p>
   <p align="center">
-    📍 India • <a href="mailto:pvedanand2003@gmail.com">ayushraj4820@gmail.com</a> • <a href="https://www.linkedin.com/in/peddaboina-vedanand/">LinkedIn</a> • <a href="https://github.com/Vedanand-ux/My-Portfolio">Portfolio</a> • <a href="https://leetcode.com/u/vedanand/">LeetCode</a>
+    📍 India • <a href="mailto:pvedanand2003@gmail.com">pvedanand2003@gmail.com</a> • <a href="https://www.linkedin.com/in/peddaboina-vedanand/">LinkedIn</a> • <a href="https://github.com/Vedanand-ux/My-Portfolio">Portfolio</a> • <a href="https://leetcode.com/u/vedanand/">LeetCode</a>
   </p>
 </div>
 
